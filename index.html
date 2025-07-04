@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Professional Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Portfolio</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Hi, I'm <span class="highlight">Maya!</span></h1>
+                    <p class="hero-subtitle">Integrated Engineering Student, focused on mechanical and chemical engineering</p>
+                    <p class="hero-description">
+                        Passionate about creating innovative solutions that make a difference. 
+                        Currently working on emerging exoskeleton tech and product development.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="Headshot.jpg" alt="Your Name" class="profile-image">
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#about">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Who I Am</h3>
+                    <p>
+                        I'm a dedicated student with a passion for all things engineering: robotics, renewable energy, transportation, and more. 
+                        My journey in engineering has been driven by curiosity and the potential to apply my skills to real-world problems.
+                    </p>
+                    
+                    <h3>My Interests</h3>
+                    <div class="interests-grid">
+                        <div class="interest-item">
+                            <i class="fas fa-robot"></i>
+                            <h4>Autonomous Systems</h4>
+                            <p>Fascinated by robotics and automation</p>
+                        </div>
+                        <div class="interest-item">
+                            <i class="fas fa-solar-panel"></i>
+                            <h4>Energy</h4>
+                            <p>Deeply interested in renewable energy technologies like solar, hydrogen and biofuels</p>
+                        </div>
+                        <div class="interest-item">
+                            <i class="fas fa-hammer"></i>
+                            <h4>Mechanical Design</h4>
+                            <p>I love running mechanical simulations and CAD designs on various softwares, as well as getting hands-on </p>
+                        </div>
+                        <div class="interest-item">
+                            <i class="fas fa-palette"></i>
+                            <h4>Creative Design</h4>
+                            <p>Passionate about art and design within both product development and creative industries</p>
+                        </div>
+                    </div>
+
+                    <h3>Skills & Technologies</h3>
+                    <div class="skills-grid">
+                        <div class="skill-category">
+                            <h4>Programming Languages</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">C++</span>
+                                <span class="skill-tag">8051 Assembly</span>
+                                <span class="skill-tag">VHDL</span>
+                                <span class="skill-tag">HTML/CSS</span>
+                                <span class="skill-tag">MATLAB</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Technologies</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">ESP-32</span>
+                                <span class="skill-tag">Arduino</span>
+                                <span class="skill-tag">Web Development</span>
+                                <span class="skill-tag">SolidWorks</span>
+                                <span class="skill-tag">Onshape</span>
+                                <span class="skill-tag">Axure RP</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="shelf-images-container">
+                            <img src="Shelf1.jpg" alt="Shelf and robot" class="shelf-image">
+                            <img src="Shelf2.jpg" alt="Shelf and robot" class="shelf-image">
+                            <img src="Shelf3.png" alt="Shelf and robot" class="shelf-image">
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Autonomous Shelving Device, 2025</h3>
+                        <p class="project-description">
+                            An innovative autonomous device capable of moving along three axes to grab and dispense 
+                            shelving boxes, increasing accessibility for those who cannot reach higher levels. 
+                            Features a custom web server built with ESP-32 microcontroller and C++ programming.
+                        </p>
+                        <div class="project-details">
+                            <h4>Key Features:</h4>
+                            <ul>
+                                <li>Three-axis movement system - my focus was on creating strong, stable horizontal movement</li>
+                                <li>Automated grabbing and dispensing mechanism</li>
+                                <li>ESP-32 web server integration and circuitry using motor controllers</li>
+                                <li>Personalized user input interface</li>
+                                <li>HTML, CSS, and JavaScript frontend</li>
+                            </ul>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">C++</span>
+                            <span class="tech-tag">ESP-32</span>
+                            <span class="tech-tag">HTML/CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Onshape</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="shelf-images-container">
+                            <img src="Guard1.png" alt="Carbon fibre chain guard" class="shelf-image">
+                            <img src="Guard2.jpg" alt="Carbon fibre chain guard" class="shelf-image">
+                            <img src="Guard3.jpg" alt="Carbon fibre chain guard" class="shelf-image">
+                            <img src="Guard5.png" alt="Carbon fibre chain guard" class="shelf-image">
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Carbon Fibre Chain Guard, 2025</h3>
+                        <p class="project-description">
+                            Designed and fabricated a carbon fibre chain guard for UBC Supermileage's 2025 hydrogen fuel cell vehicle.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">SolidWorks</span>
+                            <span class="tech-tag">HSMWorks</span>
+                            <span class="tech-tag">CNC</span>
+                            <span class="tech-tag">Carbon fibre layups</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-microchip"></i>
+                            <p>Project Image</p>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Line Following Robot, 2024</h3>
+                        <p class="project-description">
+                            A line following robot that uses IR and ultrasonic sensors to navigate various tracks and obstacles.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Arduino</span>
+                            <span class="tech-tag">C++</span>
+                            <span class="tech-tag">Motor controllers</span>
+                            <span class="tech-tag">Circuitry</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Product Specialist Engineer Co-op</h3>
+                            <span class="timeline-date">May 2025 - Present</span>
+                        </div>
+                        <h4>The Xergy Technology Inc.</h4>
+                        <p>
+                            My experience at The Xergy Technology Inc – a Vancouver startup – as a Product Specialist engineer
+                            co-op student has equipped me with exceptional design and product development skills. 
+                            My time with Xergy has allowed me to hone in on my prototype and mechanical design skills, 
+                            as well as my ability to align with stakeholder needs.
+                        </p>
+                        <ul>
+                            <li>Creatd mock-ups of exoskeletons in Onshape with fellow team members</li>
+                            <li>Designed exoskeleton backplates using SolidWorks Surfaces</li>
+                            <li>Developed an exoskeleton PRD in Axure RP to present to executives and engineers</li>
+                            <li>Analyzed exoskeleton markets from a top-down approach</li>
+                            <li>Peformed hardware testing and analysis at test sites, reporting user feedback to the team</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Engineering Education</h3>
+                            <span class="timeline-date">2023 - Present</span>
+                        </div>
+                        <h4>Bachelor of Applied Science, Integrated Engineering</h4>
+                        <p>
+                            Currently pursuing engineering degree with focus on mechanical and chemical engineering. Integrated Engineering is a multidisciplinary program that combines the study of engineering, business, and design is the
+                            most interdisciplinary engineering program at UBC, allowing students to explore a wide range of engineering disciplines and provides hands-on project experience. 
+                        </p>
+                        Some of my key courses include:
+                        <p>
+                        <ul>
+                            <li>CHBE 244, Thermodynamics I. Energy, entropy, fluids, refridgeration, and chemical engineering processes.</li>
+                            <li>CPEN 312, Digital Systems and Microcomputers. Microcontrollers, digital logic, combinatorial and sequential circuits,and more.</li>
+                            <li>MECH 260, Mechanics of Materials. Stress, strain, and real-world applications.</li>
+                            <li>IGEN 230, Introduction to Engineering Design. My key projects course where I fabricated the Autonomous Shelving Device.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Marketing & Admin Intern</h3>
+                            <span class="timeline-date">Summer 2024</span>
+                        </div>
+                        <h4>Lerners LLP</h4>
+                        <p>
+                            My experience at Lerners LLP, a Toronto-based law firm, as a marketing and admin intern
+                            equipped me with exceptional marketing and administrative skills. The role allowed me to hone in on my marketing and administrative skills, 
+                            as well as my ability to align with stakeholder needs.
+                        </p>
+                        <ul>
+                            <li>Managed social media accounts for the firm</li>
+                            <li>Assisted with blog migrations between new and old websites</li>
+                            <li>Acted as part-time receptionist for the firm, answering calls and greeting clients</li>
+                            <li>Performed competitive intelligence research for the firm</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect!</h3>
+                    <p>
+                        I'm always interested in new opportunities and collaborations. 
+                        Feel free to reach out if you'd like to discuss projects, opportunities, 
+                        or just want to say hello!
+                    </p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>mspenc13@student.ubc.ca</p>
+                            </div>
+                        </div>
+                                                
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Vancouver, BC & Toronto, ON</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/maya-j-spence/" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/mspenc67" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>                        
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <h3>Get In Touch</h3>
+                    <p>Feel free to reach out to me directly via email!</p>
+                    <p> </p>
+                    <a href="mailto:mspenc13@student.ubc.ca?subject=Portfolio Contact" class="btn btn-primary">Send Email</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Maya Spence. All rights reserved.</p>
+                <p>Made with <i class="fas fa-heart"></i>!</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
