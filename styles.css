@@ -254,6 +254,34 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
 }
 
+/* Waving hand animation */
+.profile-image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.waving-hand {
+    position: absolute;
+    top: -40px;
+    right: -30px;
+    font-size: 4rem;
+    color: #940837;
+    opacity: 0;
+    transform: rotate(-20deg);
+    transition: all 0.3s ease;
+    pointer-events: none;
+}
+
+.profile-image-container:hover .waving-hand {
+    opacity: 1;
+    animation: wave 1s ease-in-out infinite;
+}
+
+@keyframes wave {
+    0%, 100% { transform: rotate(-20deg); }
+    50% { transform: rotate(20deg); }
+}
+
 /* Debug: If image doesn't load, show a placeholder */
 .profile-image:not([src]), 
 .profile-image[src=""] {
