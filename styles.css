@@ -244,6 +244,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 300px;
     border-radius: 50%;
     object-fit: cover;
+    transform: rotate(-90deg);
     object-position: 50% 20%;
     border: 2px solid rgba(62, 85, 110, 0.12);
     box-shadow: 0 18px 40px rgba(62, 85, 110, 0.12);
@@ -253,7 +254,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .profile-image:hover {
-    transform: scale(1.02);
+    transform: scale(1.05) rotate(-90deg);
     box-shadow: 0 22px 50px rgba(62, 85, 110, 0.16);
 }
 
